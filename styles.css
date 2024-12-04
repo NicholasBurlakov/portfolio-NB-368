@@ -66,7 +66,7 @@
     font-size: 1.2rem;
     color: var(--muted-text-color);
   }
-  a/* Root variables for colors, fonts, and reusable styles */
+  a
 :root {
   --primary-color: #1e1e2f; /* Deep dark background */
   --secondary-color: #27293d; /* Slightly lighter dark for contrast */
@@ -84,7 +84,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar styles */
 nav#navbar {
   position: fixed;
   top: 0;
@@ -115,7 +114,6 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Welcome section */
 #welcome-section {
   display: flex;
   flex-direction: column;
@@ -138,7 +136,6 @@ nav ul li a:hover {
   color: var(--muted-text-color);
 }
 
-/* Projects section */
 #projects {
   padding: 20px;
   background: var(--secondary-color);
@@ -151,13 +148,12 @@ nav ul li a:hover {
   color: var(--accent-color);
 }
 
-/* Project tiles grid */
 .project-tile-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px; /* Equal spacing between tiles */
-  justify-items: center; /* Center tiles horizontally */
-  align-items: start; /* Align tiles at the top */
+  gap: 20px; 
+  justify-items: center;
+  align-items: start; 
 }
 
 .project-tile {
@@ -180,7 +176,6 @@ nav ul li a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Reflections section */
 #reflections {
   padding: 20px;
   background: var(--primary-color);
@@ -199,7 +194,6 @@ nav ul li a:hover {
   color: var(--muted-text-color);
 }
 
-/* Profile section */
 #profile-section {
   padding: 20px;
   text-align: center;
@@ -220,7 +214,6 @@ nav ul li a:hover {
   color: var(--muted-text-color);
 }
 
-/* Footer styles */
 footer {
   text-align: center;
   padding: 10px;
@@ -237,7 +230,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   #welcome-section h1 {
     font-size: 2rem;
@@ -248,10 +240,9 @@ footer a:hover {
   }
 
   .project-tile img {
-    max-width: 100%; /* Ensure images resize on smaller devices */
-  }
+    max-width: 100%;
 }
-a/* Root variables for colors, fonts, and reusable styles */
+a
 :root {
   --primary-color: #1e1e2f; /* Deep dark background */
   --secondary-color: #27293d; /* Slightly lighter dark for contrast */
@@ -269,7 +260,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar styles */
 nav#navbar {
   position: fixed;
   top: 0;
@@ -300,7 +290,6 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Welcome section */
 #welcome-section {
   display: flex;
   flex-direction: column;
@@ -323,7 +312,6 @@ nav ul li a:hover {
   color: var(--muted-text-color);
 }
 
-/* Projects section */
 #projects {
   padding: 20px;
   background: var(--secondary-color);
@@ -336,13 +324,12 @@ nav ul li a:hover {
   color: var(--accent-color);
 }
 
-/* Project tiles grid */
 .project-tile-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px; /* Equal spacing between tiles */
-  justify-items: center; /* Center tiles horizontally */
-  align-items: start; /* Align tiles at the top */
+  gap: 20px; 
+  justify-items: center; 
+  align-items: start;
 }
 
 .project-tile {
@@ -365,7 +352,6 @@ nav ul li a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Reflections section */
 #reflections {
   padding: 20px;
   background: var(--primary-color);
@@ -384,7 +370,6 @@ nav ul li a:hover {
   color: var(--muted-text-color);
 }
 
-/* Profile section */
 #profile-section {
   padding: 20px;
   text-align: center;
@@ -405,7 +390,6 @@ nav ul li a:hover {
   color: var(--muted-text-color);
 }
 
-/* Footer styles */
 footer {
   text-align: center;
   padding: 10px;
@@ -422,7 +406,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   #welcome-section h1 {
     font-size: 2rem;
@@ -433,11 +416,10 @@ footer a:hover {
   }
 
   .project-tile img {
-    max-width: 100%; /* Ensure images resize on smaller devices */
+    max-width: 100%; 
   }
 }
 
-  /* Projects section */
 #projects {
   padding: 20px;
   background: var(--secondary-color);
@@ -450,12 +432,11 @@ footer a:hover {
   color: var(--accent-color);
 }
 
-/* Flexbox layout for horizontal stacking */
 .project-tile-container {
   display: flex;
-  flex-wrap:wrap; /* Allows wrapping to next line on smaller screens */
-  justify-content: space-around; /* Even spacing between tiles */
-  gap: 10px; /* Optional extra spacing between rows/columns */
+  flex-wrap:wrap; 
+  justify-content: space-around; 
+  gap: 10px;
 }
 
 .project-tile {
@@ -464,8 +445,8 @@ footer a:hover {
   padding: 15px;
   border: 1px solid var(--accent-color);
   border-radius: 5px;
-  flex: 0 1 calc(25% - 20px); /* Four tiles per row, minus the gap */
-  max-width: 300px; /* Prevent excessive tile width */
+  flex: 0 1 calc(25% - 20px); 
+  max-width: 300px; 
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -479,16 +460,14 @@ footer a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Responsive Design for smaller screens */
 @media (max-width: 768px) {
   .project-tile {
-    flex: 0 1 calc(50% - 20px); /* Two tiles per row on smaller screens */
-  }
+    flex: 0 1 calc(50% - 20px); 
 }
 
 @media (max-width: 480px) {
   .project-tile {
-    flex: 0 1 calc(100% - 20px); /* Single tile per row on very small screens */
+    flex: 0 1 calc(100% - 20px); 
   }
 }
 
@@ -553,7 +532,6 @@ footer a:hover {
     text-decoration: underline;
   }
   
-  /* Link States */
   a:link {
     color: var(--accent-color);
   }
@@ -573,7 +551,6 @@ footer a:hover {
     background-color: var(--accent-color);
   }
   
-  /* Media Query */
   @media (max-width: 768px) {
     nav ul {
       flex-direction: column;

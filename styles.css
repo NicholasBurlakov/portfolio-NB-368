@@ -2,7 +2,7 @@
     --primary-color: #1e1e2f; /* Deep dark background */
     --secondary-color: #27293d; /* Slightly lighter dark for contrast */
     --accent-color: #ff6f61; /* Bright accent for highlights */
-    --text-color: #f5f5f5; /* Light text for readability */
+    --text-color: #ff6f61; /* Light text for readability */
     --muted-text-color: #a9a9b3; /* Muted text for secondary elements */
     --font-family: 'Poppins', sans-serif;
   }
@@ -71,7 +71,7 @@
   --primary-color: #1e1e2f; /* Deep dark background */
   --secondary-color: #27293d; /* Slightly lighter dark for contrast */
   --accent-color: #ff6f61; /* Bright accent for highlights */
-  --text-color: #f5f5f5; /* Light text for readability */
+  --text-color: #ff6f61; /* Light text for readability */
   --muted-text-color: #a9a9b3; /* Muted text for secondary elements */
   --font-family: 'Poppins', sans-serif;
 }
@@ -142,6 +142,11 @@ nav ul li a:hover {
   border-top: 2px solid var(--accent-color);
 }
 
+#projects p {
+  text-align: center;
+  color: var(--text-color);
+}
+
 #projects h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -157,6 +162,7 @@ nav ul li a:hover {
 }
 
 .project-tile {
+  color: var(--text-color); /* Use the variable */
   text-align: center;
   background: var(--primary-color);
   padding: 15px;
@@ -164,6 +170,7 @@ nav ul li a:hover {
   border-radius: 5px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
+
 
 .project-tile img {
   width: 100%;
@@ -227,7 +234,7 @@ footer a {
 }
 
 footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -339,7 +346,14 @@ nav ul li a:hover {
   border: 1px solid var(--accent-color);
   border-radius: 5px;
   transition: transform 0.3s, box-shadow 0.3s;
+
 }
+
+.project-tile p,
+.project-tile a {
+  text-decoration: none;
+}
+
 
 .project-tile img {
   width: 100%;
@@ -403,7 +417,7 @@ footer a {
 }
 
 footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -529,7 +543,7 @@ footer a:hover {
   }
   
   footer a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   a:link {
